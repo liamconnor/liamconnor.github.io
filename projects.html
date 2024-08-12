@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Liam Connor | Projects</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <header class="header_area">
+            <div class="main_menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <a class="navbar-brand logo_h" href="index.html"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav menu_nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="projects.html">Projects</a></li>
+                                <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="project_area">
+            <div class="container">
+                <div class="main_title">
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="project_item d-flex align-items-center">
+                            <div class="project_text" style="flex: 1;margin-bottom: 40px;">
+                                <h4>Fast Radio Bursts (FRBs)</h4>
+                            
+                                <p> FRBs are mysterious pulses of 
+                                    radio waves that come from the distant Universe. 
+                                    They typically last for just a millisecond, but can 
+                                    be as short at ~ten microseconds.
+                                    I study their origins and potential 
+                                    as cosmological probes. Specifically, I am interested in 
+                                    using the dispersion of FRBs to map out the Universe's 
+                                    baryon cosmic web, the exact distribution of which has 
+                                    a significant impact on 
+                                    galaxy formation and precision cosmology.</p>
+
+                                <p>
+                                    The animation on the right shows an FRB 
+                                    travelling through the IllustrisTNG simulation and the 
+                                    corresponding dispersion measure from ionized plasma in 
+                                    the baryon cosmic web. After ~20 seconds
+                                    the pulses passes through a massive galaxy cluster, rapidly boosting 
+                                    its dispersion measure. Feel free to use it!
+                                </p>
+
+                            </div>
+                            <div class="project_video" style="flex: 1; text-align: right; ">
+                                <video width="400" controls autoplay muted>
+                                    <source src="videos/frbillustris_movie.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="project_item", style="flex: 1;margin-bottom: 40px;">
+                            <h4>Surveys: The DSA-110</h4>
+                            <p> The DSA-110 is an array of 5 m dishes at Caltech's 
+                                Owens Valley Radio Observatory (OVRO)
+                                that was built with the express purpose of discovering 
+                                FRBs and localizing them to their host galaxies. 
+                                Since 2022, we have amassed a significant sample 
+                                of localized FRBs, which we follow up with optical 
+                                and infrared instruments at the W. M. Keck Observatory and Palomar 
+                                Observatory. Studying this sample has led to some fascinating 
+                                results and continues to be great fun!
+                            </p>
+                        </div>
+                        <div class="project_image" style="flex: 1;">
+                            <div style="display: flex; justify-content: center;">
+                                <img src="img/dsa110.png" alt="Centered Image" style="width: 700px; height: auto; margin-bottom: 40px;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="project_item", style="margin-bottom: 40px;">
+                            <h4>Surveys: The DSA-2000</h4>
+                            <p> The DSA-2000 takes the small-dish, many antennas paradigm 
+                                to its extreme. This planned telescope will 
+                                be the most powerful radio array ever constructed when it sees 
+                                first light in 2027. While 
+                                its predecessor (DSA-110) had a focused goal of localizing FRBs, the 
+                                DSA-2000 is a broad survey instrument that will map 
+                                the entire visible sky down to 500 nJy, discover large swaths of 
+                                new pulsars and FRBs, detect nanoHz gravitational waves, and much more.
+                            </p>
+                        </div>
+                        <div class="project_image" style="flex: 1;">
+                            <div style="display: flex; justify-content: center;">
+                                <img src="img/dsa2000.png" alt="Centered Image" style="width: 700px; height: auto;margin-bottom: 40px;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="project_item", style="margin-bottom: 40px">
+                            <h4>AI/ML: Superresolution and interferometric deconvolution</h4>
+                            <p> Imaging the sky with an interferometric array of radio antennas 
+                                requires solving an ill-posed inverse problem known as deconvolution. 
+                                Significant progress has been made recently by the computer vision 
+                                community on a similar class of problems, using 
+                                efficient neural network architectures. My colleagues and I have 
+                                developed these tools for superresolution imaging in radio astronomy, 
+                                which will enable telescopes like the DSA-2000 to find hundreds of 
+                                thousand of strong gravitational lenses that would otherwise be 
+                                too blurry to detect.
+                            </p>
+                        </div>
+                        <div class="project_image" style="flex: 1;">
+                            <div style="display: flex; justify-content: center;">
+                                <img src="img/strong_lensing_polish.pdf" alt="Centered Image" style="width: 500px; height: auto; margin-bottom: 40px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="project_item", style="margin-bottom: 40px;">
+                            <h4>AI/ML: 3D reconstruction of the cosmic web</h4>
+                            <p> I am interested in using modern machine learning 
+                                techniques to reconstruct cosmological 3D fields 
+                                from astronomical observations. This includes 
+                                a collaboration with Caltech computational 
+                                cameras group and Google Research that seeks to 
+                                reconstruct the intervening 
+                                dark matter field causing weak lensing 
+                                of distant galaxies. I am also in the early 
+                                stages of studying how to do this for the baryon cosmic 
+                                web, which traces the dark matter large-scale structure 
+                                but deviates in important ways at small scales.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="project_item d-flex align-items-center", style="margin-bottom: 40px;">
+                            <div class="project_text" style="flex: 2;">
+                                <h4>Hardware: Coherent All-Sky Monitor (CASM)</h4>
+                                <p> Although still in the conceptual phase, I'd 
+                                    eventually like to build a large "dense aperture array" 
+                                    to search 10,000 square degrees for fast radio 
+                                    phenomena. Such a telescope could find strongly lensed FRBs, 
+                                    coherent emission  
+                                    coincident with gravitational wave events,and Galactic 
+                                    magnetars. Similar efforts are underway around the 
+                                    world (e.g. BURSTT in Taiwan or CHARTS in Chile), 
+                                    as radio astronomers 
+                                    are taking advantage of the tremendous gains brought 
+                                    forth by modern signal processing hardware 
+                                    such as AMD's Radio Frequency System-on-Chip (RFSoC) and 
+                                    Tensor Cores on GPUs. An early effort has begun at 
+                                    OVRO to build a simple 16-element array shown a cartoon rendering 
+                                    made by Michael Gutierrez.</p>
+                            </div>
+                            <div class="project_image" style="flex: 1; text-align: right;">
+                                <img src="img/teleskop.png" alt="CASM" style="width: 100%; max-width: 350px; height: auto; margin-left: 20px;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="project_item">
+                            <h4>Hardware: Galactic Radio eXplorer (GReX)</h4>
+                            <p>
+                                My collaborators and I have built
+                                the Global Radio eXplorer (<a href="https://arxiv.org/pdf/2101.09905.pdf" style="color: rgb(0, 0, 179)">GReX</a> , rhymes with 
+                                "T-Rex") as an international all-sky monitor that 
+                                will continuously survey the Galaxy for ultrabright bursts at 1.4 GHz 
+                                with ~10 microsecond time resolution. Clusters of three radio 
+                                antennas will be placed around the world in order to 
+                                find more Galactic FRBs, super giant pulses from pulsars, 
+                                and whatever unknown phenomena occupies this underexplored volume of 
+                                parameter space. Thus far, we have sent GReX terminals to 
+                                OVRO, Cornell, Harvard, Hat Creek Observatory, Ireland, and Australia.
+                            </p>
+                        </div>
+                        <div class="project_image" style="flex: 1;">
+                            <div style="display: flex; justify-content: center;">
+                                <img src="img/grex.png" alt="Centered Image" style="width: 400px; height: auto; margin-bottom: 40px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>&copy; 2024 Liam Connor. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>
